@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //  
 //    Function Name : program to print 5 time marvellous
@@ -8,13 +10,10 @@
 //    Date :  19/10/2026
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#include <stdio.h>
-#include <stdlib.h>
-
 void Display()
 {
-    int i = 0;
-    for( i = 1; i <= 5; i++)
+    int iNo = 0;
+    for( iNo = 1; iNo <= 5; iNo++)
     {
         printf("Marvellous\n");
     }
