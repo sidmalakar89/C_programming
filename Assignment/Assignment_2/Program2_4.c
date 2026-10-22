@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//  
+//    Function Name : To Display first number in second number of times
+//    Description :  Accept two numbers from user and display first number in second number of times 
+//    Input :  iValue , iCount
+//    Output :   eg 12, 5
+//                  12 12 12 12 12
+//    Author :  Siddharth Santosh Malakar
+//    Date :  22/10/2026
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void Display(int iNo, int iFrequency)
 {
     int iCnt = 0;
