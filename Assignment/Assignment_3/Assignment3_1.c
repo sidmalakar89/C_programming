@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//  
+//    Function Name : accept number and print that number of even numbers on screen
+//    Description : acccept a number from user and print that number of even numbers on screen
+//    Input :  iValue
+//    Output :   eg 7
+//                  2 4 6 8 10 12
+//    Author :  Siddharth Santosh Malakar
+//    Date :  22/10/2026
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void PrintEven(int iNo)
 {
     if(iNo <= 0)
