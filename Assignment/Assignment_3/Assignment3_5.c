@@ -1,12 +1,20 @@
-// Input : E        Output : TRUE 
-// Input : d        Output : False 
-
 #include <stdio.h>
 #include <stdlib.h>
 
 #define TRUE 1
 #define FALSE 0
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//  
+//    Function Name : Check character is vowel or not
+//    Description :  accept character from user and check whether that character is vowel or not(a,e,i,o,u)
+//    Input :   cValue
+//    Output :   eg
+//              Input : E        Output : TRUE 
+//              Input : d        Output : False 
+//    Author :  Siddharth Santosh Malakar
+//    Date :  22/10/2026
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 typedef int BOOL;
 BOOL CheckVowel(char CValue)
 {
