@@ -1,10 +1,16 @@
-// Input : 36
-// Output : 2 6 12 18 
-//
-
 #include <stdio.h>
 #include <stdlib.h>
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//  
+//    Function Name : to print even factors of that number 
+//    Description :  accept nummber from user and print even factors of that number
+//    Input :  iValue
+//    Output :  eg 36
+//                 2 6 12 18
+//    Author :  Siddharth Santosh Malakar
+//    Date :  22/10/2026
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void DisplayFactor(int iNo)
 {
     int iCnt = 0;
