@@ -1,9 +1,17 @@
-// Input : a        output : A
-// Input : D        output : d
-
 #include <stdio.h>
 #include <stdlib.h>
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//  
+//    Function Name : To convert case of the character
+//    Description :  accept one character fromm user and convert case of that character 
+//    Input :   cValue
+//    Output :  eg 
+//              Input : a        output : A
+//              Input : D        output : d
+//    Author :  Siddharth Santosh Malakar
+//    Date :  22/10/2026
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void DisplayConvert(char cValue)
 {
     if(cValue >= 'A' && cValue <= 'Z')
